@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Inset Style sheet link to style.css-->
+    <link rel = "stylesheet"
+   type = "text/css"
+   href = "style.css" />
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+   <script src="script.js"></script>
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    
+</head>
+<body>
+
+<div class = "container-fluid">
+    <div class="row">
+        <div class ="col-sm-2">
+
+        </div>
+
+
+        <!-- Insert heading: Password Generator; centered on page-->
+        <div class ="col-sm-8">
+
+       
+        <div class = "pw">Password Generator</div>
+        </div>
+
+        <div class="col-sm-2">
+
+        </div>
+    
+    </div>
+
+    <div id = "box" class="row">
+
+        <!-- Left column-->
+
+        <div class = "col-sm-2">
+
+        </div>
+
+        <!-- Insert section with floating box for password generator-->
+
+        <div id = "section" class = "col-sm-8">
+
+        <!-- Title of Section: Generate a Password-->
+
+            <div class = "row">
+
+                <div class= "gen">
+                </div>
+
+
+            </div>
+
+
+            <div class = "row">
+                    <h1>Password Generator</h1>
+
+                    <div id = field>
+
+                    
+
+                    
+
+
+                
+                    <p  id = "password"></p>
+                   
+                
+                </div>
+           
+            </div>
+
+            <div class = "row">
+
+                <div class = "col-sm-1">
+
+                </div>
+                
+                <div class = "col-sm-5">
+
+                <!-- left button -->
+                    <!-- <button onclick="genPassword('#password')">Generate Password</button> -->
+                    
+                    
+                    <button id = "red" onclick="genPassword('#password')" type="button" class="btn btn-primary btn-lg">Generate Password</button>
+ 
+
+
+                   <!-- <button onclick = "myFunction()" type="button" id = "red" class="btn btn-danger">Generate Password</button onclick = "myFunction()" > -->
+
+                </div>
+
+                <div class = "col-sm-5">
+
+                <!-- right button
+                    <button type="button" class="btn btn-secondary">Copy to Clipboard</button>
+               
+               -->
+
+                    <!--    <button onclick="copyToClipboard('#password')">Copy to Clipboard</button> -->
+
+
+                    <button id = "gray" onclick="copyToClipboard('#password')" type="button" class="btn btn-primary btn-lg">Copy to Clipboard</button>
+
+
+                </div>
+
+                <div class = "col-sm-1">
+
+                </div>
+               
+                
+
+
+            </div>
+
+            <div class = "row" id = "floor">
+
+            </div>
+
+
+
+
+
+        </div>
+
+        <!-- Right column-->
+
+        <div class = "col-sm-2">
+
+        </div>
+
+
+    </div>
+    </div>
+   
+
+
+</body>
+</html>
