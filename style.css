@@ -1,0 +1,66 @@
+
+/* */
+
+.pw {
+    font-size: 48px;
+    text-align: center;
+}
+
+
+#section {
+    border: 1px solid grey;
+
+}
+
+/* */
+
+.gen {
+    font-size: 36px;
+    padding: 20px;
+}
+
+#field {
+    height: 300px;
+    border-style: dashed;
+    margin: 10px;
+    width: 100%;
+}
+
+#floor {
+    height: 15px;
+}
+
+#password {
+    text-align: center;
+    position: relative;
+}
+
+
+/* Make button red */
+#red {
+    background-color: rgb(6, 9, 189);
+    text: white;
+    border-radius: 14px;
+
+
+}
+
+#gray {
+    background-color: rgb(24, 209, 64);
+    border-radius: 14px;
+
+}
+
+
+
+
+
+/* Added/need to center - Password Generator words to center
+Generate a Password text within box
+Light grey line above and below dotted box
+Light grey dotted border around text field
+Check - No background in text field
+Padding between secure password and top
+Box looks like it's floating
+Big red button rounded with white text
+Big light grey button rounded with white text*/

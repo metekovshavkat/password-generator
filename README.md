@@ -1,2 +1,4 @@
-# password-generator
-Password generator helps to generate strong passwords that meet certain requirements by a policy;
+# random-pw
+Password Generator helps to generate passport that meet certain requirements by policy or user's choice;
+
+The importance of password
